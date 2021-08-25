@@ -636,7 +636,6 @@ a:hover {
   color: #fff;
   font-weight: 350;
   font-size: 3rem;
-  /* font-stretch: expanded; */
 }
 
 .intro .intro-subtitle {
@@ -645,8 +644,36 @@ a:hover {
   font-family: monospace;
 }
 
+.typer {
+  border-right:2px solid #f2f2f2;
+}
+
 .intro .text-slider-items {
   display: none;
+}
+
+.ico-anim-circle {
+  height: 80px;
+  width: 80px;
+  font-size: 50px;
+  border-radius: 50%;
+  line-height: 1.55;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 0 2px #f2f2f2;
+  display: block;
+  transition: all 500ms ease;
+}
+
+.ico-anim-circle:hover {
+  color:  #ffff00;
+  box-shadow: 0 0 0 3px #ffff00;
+  transition: all 500ms ease;
+}
+
+.home-animation > i {
+  display: block;
+  align-self: center;
 }
 
 .intro-single {
@@ -887,6 +914,10 @@ a:hover {
 /*======================================
 //--//-->   project
 ======================================*/
+
+.responsive-container{
+  justify-content: space-evenly;
+}
 
 .card-project .card-body {
   position: relative;
