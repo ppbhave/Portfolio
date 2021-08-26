@@ -59,7 +59,7 @@ function initilization() {
     const textElement = document.querySelector('.typer');
     const home_animation = document.querySelector(".home-animation");
     const anim_circle = document.querySelector(".ico-anim-circle");
-    const words = JSON.parse('["Web Development","Storytelling","Psychology"]');
+    const words = JSON.parse('["Web Developer","Storyteller","Debatist"]');
     const icons = JSON.parse('["fa fa-laptop","fa fa-book","fa fa-lightbulb-o"]');
     const wait = 1000;
 
